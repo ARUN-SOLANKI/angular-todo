@@ -1,0 +1,129 @@
+.container{
+  margin: auto;
+  background-color: #3471ff;
+  padding: 40px;
+}
+.inputDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40rem;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.filtercomp{
+  width: 40rem;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.empltyArray{
+  width: 40rem;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.inputField{
+width: 78%;
+height: 40px;
+font-size: 20px;
+padding-left: 10px;
+}
+.inputField:focus{
+  outline : none;
+  }
+.addButton{
+  font-size: 20px;
+  color: #fff;
+  background-color: #3471ff;
+  padding: 7px 20px;
+  border: none;
+}
+.addButton:hover{
+  cursor: pointer;
+  font-size: 20px;
+  color: #3471ff;
+  background-color: #fff;
+  border: 1px solid #3471ff;
+  padding: 7px 20px;
+}
+
+.updateButton{
+  font-size: 20px;
+  color: #fff;
+  background-color: #3471ff;
+  padding: 7px 10px;
+  border: none;
+}
+.updateButton:hover{
+  cursor: pointer;
+  font-size: 20px;
+  color: #3471ff;
+  background-color: #fff;
+  padding: 7px 10px;
+  border: 1px solid #3471ff;
+}
+.todoItems{
+  width: 40rem;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.todos{
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.itemTitle{
+  display: inline-block;
+  font-size: 20px;
+  width:80%;
+  margin-left: 5px;
+}
+
+.headContainer{
+  display: flex;
+  width: 90%;
+}
+.deleteItem{
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+.deleteItem{
+ cursor: pointer;
+}
+.editItem{
+  padding: 10px 20px;
+  background-color: #3471ff;
+  border: none;
+  color: #fff;
+}
+.editItem:hover{
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color:#fff;
+  border: 1px solid  #3471ff;
+  color:  #3471ff;
+}
+.emptyText{
+  font-size: 20px;
+  color: red;
+  font-weight: 700;
+}
